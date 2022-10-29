@@ -2,7 +2,7 @@
 
 In daily fantasy sports and in fantasy sports in general, the general strategy is to maximize the total projected points for a given lineup. This is commonly done by predicting the fantasy points for each player, then using a linear progamming solver with an objective function to maximize the projected total points. On a basic level, the constraints for these solvers limit the total cost of a lineup and limit the number of players for a lineup.
 
-The goal of this project is to see if this strategy can be improved upon by adding more constraints to the linear solver. These two additional constraints are the projected public lineup ownership totals and the projected lineup leverage totals.
+The goal of this project is to see if this strategy can be improved upon by adding more constraints to the linear solver. These two additional constraints are the projected lineup public ownership totals and the projected lineup leverage totals.
 
 The general concept of this is similar to game theory concepts. I'll make up an example to explain the idea. Say the general public is betting on the result of a coin toss. Those who predict correctly split the winnings. Before the coin toss, it was leaked that it is a weighted coin. The coin is 60% to land heads and 40% to land tails. Because of this, the public adjusts their predictions. 65% of the public predicts heads and 35% of the public predicts tails. Although heads will happen more frequently, betting tails has the higher expected value. Accurately estimating the public predictions beforehand, betting tails would be correct here. The concept is the same with fantasy sports except it is the lineup fantasy points outcome instead of the coin flip outcome.
 
