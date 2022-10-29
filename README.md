@@ -1,6 +1,6 @@
 # dk_nba_solver_constraints
 
-In daily fantasy sports and in fantasy sports in general, the general strategy is to maximize the total projected points for a given lineup. This is commonly done by predicting the projected points for each player, then using a linear progamming solver with an objective function to maximize the projected total points. On a basic level, the constraints for these solvers limit the total cost of a lineup and limit the number of players for a lineup.
+In daily fantasy sports and in fantasy sports in general, the general strategy is to maximize the total projected points for a given lineup. This is commonly done by predicting the fantasy points for each player, then using a linear progamming solver with an objective function to maximize the projected total points. On a basic level, the constraints for these solvers limit the total cost of a lineup and limit the number of players for a lineup.
 
 The goal of this project is to see if this strategy can be improved upon by adding more constraints to the linear solver. These two additional constraints are the lineup ownership totals and the lineup leverage totals.
 
